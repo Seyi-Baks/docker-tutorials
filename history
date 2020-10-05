@@ -1,0 +1,40 @@
+ 8900  cd projects
+ 8901  cd 
+ 8902  cd personal
+ 8903  mkdir seyi-docker
+ 8904  cd seyi-docker
+ 8905  code .
+ 8906  npm inti -y
+ 8907  npm init -y
+ 8908* npm install --save micro\n
+ 8909* echo "module.exports = () => 'Welcome to Micro'" > index.js
+ 8910  npm start
+ 8911  docker build .
+ 8912  docker images list
+ 8913  docker ps
+ 8914  docker build -t seyi .
+ 8915  docker run --rm -it seyi:latest 
+ 8916  docker build -t seyi .
+ 8917  docker run --rm -it seyi:latest 
+ 8918  docker run --rm -it seyi:latest sh
+ 8919  docker run --rm -it seyi:latest bash
+ 8920  docker build -t seyi .
+ 8921  docker run --rm -it seyi:latest bash
+ 8922  docker images list
+ 8923  docker container list
+ 8924  docker image ls
+ 8925  docker run --rm -it seyi:latest bash
+ 8926  docker run --rm -it seyi:latest 
+ 8927  docker build -t seyi .
+ 8928  docker run --rm -it seyi:latest 
+ 8929  docker build -t seyi .
+ 8930  docker run --rm -it seyi:latest bash
+ 8931  docker build -t seyi .
+ 8932  docker run --rm -it seyi:latest bash
+ 8933  docker build -t seyi .
+ 8934  docker run --rm -it seyi:latest 
+ 8935  docker run --rm -it -p 3000:3000 seyi:latest 
+ 8936  docker run --rm -it -p 5000:3000 seyi:latest 
+ 8937  docker run --rm -it --env MESSAGE="ok tango charlie" --port 5000:3000 seyi:latest 
+ 8938  docker run --rm -it --env MESSAGE="ok tango charlie" --port=5000:3000 seyi:latest 
+ 8939  docker run --rm -it --env MESSAGE="ok tango charlie" -p 5000:3000 seyi:latest 
